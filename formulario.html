@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em HTML</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+    <h1>Exemplos de Formulário em HTML</h1>
+    <hr>
+    <div class="azul">
+        <form>
+            <h3>Exemplo 1</h3>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Email">
+        <input type="tel" placeholder="Celular">
+        <input type="text" placeholder="Senha">
+        <input class="botao" type="submit" placeholder="Cadastrar">
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h3>Exemplo 2</h3>
+        <textarea class="text1"></textarea>
+    </div>
+    <hr>
+    <div>
+        <h3>Exemplo 3</h3>
+        <fieldset class="roxo">
+            <legend>Formulário</legend>
+            <p>Nome: <input type="text" name="nome"></p>
+            <p>Sexo: <input type="radio" name="sexo" value="1">Masculino
+                  <input type="radio" name="sexo" value="2">Feminino</p>
+            <p>País:<select>
+                <option></option>
+                <option>Argentina</option>
+                <option>Bolívia</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Colômbia</option>
+                <option>Equador</option>
+                <option>Guiana</option>
+                <option>Paraguai</option>
+                <option>Peru</option>
+                <option>Suriname</option>
+                <option>Uruguai</option>
+                <option>Venezuela</option>
+            </select></p>
+            <p>Mensagem:<br> <textarea class="text2"></textarea></p>
+            <p><input type="checkbox"> Assinar Newsletter?</p>
+            <input class="botao2" type="submit" name="Enviar">
+        </fieldset>
+    </div>
+    <hr>
+    <div>
+        <form method="get" action="https://www.google.com" target="_blank">
+        <h3>Exemplo 4</h3>
+        <input class="text3" type="search" name="q">
+        <button class="pesquisa" type="submit">Clique para pesquisar</button>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h3>Exemplo 5</h3>
+        <fieldset class="boing">
+            <legend>Selecione a cor que mais agrada?</legend>
+            <input type="checkbox" name="cor">azul
+            <input type="checkbox" name="cor">vermelho
+            <input type="checkbox" name="cor">verde
+            <input type="checkbox" name="cor">amarelo
+        </fieldset>
+    </div>
+</body>
+</html>

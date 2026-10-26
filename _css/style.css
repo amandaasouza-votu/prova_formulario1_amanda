@@ -1,0 +1,66 @@
+h1{
+    color: brown;
+}
+hr{
+    border-radius: 20px;
+    height: 10px;
+    background-color: brown;
+    border: none;
+}
+.azul{
+    color: brown;
+}
+.azul input{
+    background-color: rgb(172, 222, 245);
+    height: 30px;
+    width: 150px;
+}
+.azul input[type="submit"]{
+    background-color: yellow;
+    border-color: blueviolet;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+}
+.text1{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(163, 223, 241);
+    resize: none;
+}
+.text2{
+    width: 200px;
+    height: 50px;
+    resize: none;
+}
+.roxo{
+    color: rgb(189, 43, 226);
+    border-color: rgb(189, 43, 226);
+    border-radius: 10px;
+}
+.botao2{
+    color: blue;
+}
+.text3{
+    width: 200px;
+    height: 30px;
+    resize: none;
+    border-color: red;
+}
+.pesquisa{
+    width: 200px;
+    height: 30px;
+    color: red;
+    background-color: black;
+    border-radius: 8px;
+    border-color: red;
+}
+.boing{
+    color: rgb(42, 165, 63);
+    border: solid rgb(184, 174, 32) 3px;
+    font-style: italic;
+    font-weight: bold;
+}
+div{
+    color: brown;
+}
